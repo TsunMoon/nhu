@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<title> Mai Huynh Nhu </title>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/styledesktop.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="container-fluid">
+
+		<div class="row">
+			<div class="col-4">
+				<img style="width: 100%; height: 100%;" src="images/BackgroundImage.jpg" alt="BackgroundImage"/>
+			</div>
+			<div class="col-4">
+				<div class="center">
+					<h1 id="t_welcome_word"> WELCOME TO MY PORTFOLIO </h1>
+					<h3 id="first"> Mai Huynh Nhu </h3>
+					<br/>
+					<button type="button" onclick="myFunction()"> Get Started </button>
+					<script>
+						function myFunction(){
+							document.getElementById("first").innerHTML ="Enjoy Your Time (^.^)";
+						}
+
+						function randomRGB() {
+          var x = Math.floor((Math.random() * 254) + 1);
+          return x;
+          }
+
+        setInterval(function(){
+            document.getElementById("t_welcome_word").style.color  = 'rgb(' + randomRGB() + ',' + randomRGB() + ',' + randomRGB() + ')';
+                  }, 1000);
+
+					</script>
+					</div>
+			</div>
+			<div class="col-4">
+				<nav>
+					<ul id="t_menu">
+						<li><a href="#" class="active">Home</a></li>
+						<li><a href="#page2" class="aboutmesection">About Me</a></li>
+						<li><a href="#mywork" class="mywork">My Work</a></li>
+						<li><a href="#page4" class="contact">Contact</a></li>
+					</ul>					
+				</nav>
+			</div>
+		</div>
+
+		
+		<!-- <nav class="right">
+			<a href="#" class="active">Home</a>
+			<a href="#page2" class="aboutmesection">About Me</a>
+			<a href="#mywork" class="mywork">My Work</a>
+			<a href="#page4" class="contact">Contact</a>
+		</nav>
+		<div class="left">
+		<img src="images/BackgroundImage.jpg" alt="BackgroundImage" class="backgroundimg"/>
+		</div> -->
+	</header>
+
+	
+
+
+<section id="page2">
+	<section class="aboutme">
+	<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+      	<h1> ABOUT ME </h1>
+		<p> BA Student in Multimedia Communication at FPT University, with a study abroad experience at Multimedia University in Malaysia. I knew Multimedia Communication by chance and until this day I still don't have a clear explanation why I choose this major. But I feel an emotional bond between me and MC. Have you ever enjoyed doing something for no particular reason? When I wake up every morning, I always feel that I need to be engaged in some activities that related to my major. </p>
+		<hr>
+		<div class="w3-panel w3-leftbar w3-light-grey">
+ 		 <p class="w3-xlarge w3-serif">
+  		<div class="reason">
+  		<i>"Everything happens for a reason"</i></p>
+  		<p>Aristotle</p>
+  		</div>
+      </div>
+  		</div>
+      <div class="item">
+        <section class="skills">
+		<h1> SKILLS </h1>
+		<div>
+		Project Management (80%)<progress value="80" max="100">80%</progress>
+		<br>
+		Collaboration &amp; Teamwork (60%)<progress value="60" max="100">60%</progress>
+		<br>
+		Interpersonal (70%)<progress value="70" max="100">100%</progress>
+		<br>
+		Adobe Photoshop (50%)<progress value="50" max="100">50%</progress>
+		<br>
+		Adobe Premiere (40%)<progress value="40" max="100">40%</progress>
+		</div>
+	</section>
+      </div>
+    
+      <div class="item">
+        	<section class="interests">
+		<h1> Interests </h1>
+		<img src="images/travelling.png" alt="Travelling"/>
+		<img src="images/music.png" alt="Music"/>
+		<img src="images/writing.png" alt="Writing"/>
+		<img src="images/photography.png" alt="photography"/>
+	</section>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+	<section id="mywork">
+		<h1> My Work </h1>
+	<div class="instagramphotos">
+				<figure> 
+			<a href="https://www.instagram.com/p/CHx6OlNpbtt/">
+			<img src="images/mirror.jpg" alt="Mirror" class="mirror"/>
+			</a>
+			<figcaption>
+			<div class="w3-panel w3-sand w3-leftbar">
+  			<p><i class="fa fa-quote-right w3-xxlarge w3-opacity"></i>
+  			<span class="w3-serif w3-xlarge">
+ 			Look in a mirror and one thing's sure; what we see is not who we are</span></p>
+			</div>
+			</figcaption>
+	 	</figure>
+	 	<figure>
+	 		<a href="https://www.instagram.com/p/CHx6OlNpbtt/">
+	 		<img src="images/rose.jpg" alt="Rose" class="rose"/>
+	 		</a>
+	 		<figcaption>
+	 		<div class="w3-panel w3-sand w3-leftbar">
+  			<p><i class="fa fa-quote-right w3-xxlarge w3-opacity"></i>
+  			<span class="w3-serif w3-xlarge">
+ 			 She was a ROSE in the hands of those who had no intention of keeping hers</span></p>
+			</div>
+	 		</figcaption>
+	 	</figure>
+	 	<figure>
+	 		<a href="https://www.instagram.com/p/CHx6OlNpbtt/">
+	 		<img src="images/luv.jpg" alt="Luv" class="luv"/>
+	 		</a>
+	 		<figcaption>
+	 		<div class="w3-panel w3-sand w3-leftbar">
+  			<p><i class="fa fa-quote-right w3-xxlarge w3-opacity"></i>
+  			<span class="w3-serif w3-xlarge">
+ 			Mashup eb x c</span></p>
+			</div>
+	 		</figcaption>
+	 	</figure>
+	 </div>
+	</section>
+	<section id="page4">
+<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="215" id="gmap_canvas" src="https://maps.google.com/maps?q=fpt%20university%20khu%20cong%20nghe%20cao&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net"></a></div><style>.mapouter{position:relative;text-align:right;height:215px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:215px;width:600px;}</style></div>
+	<div class="contactme">
+		<h1> Contact </h1>
+		<div class="infor">
+			<i class="fas fa-map-marker"></i>
+			Saigon, Vietnam
+			<br>
+			<i class="fas fa-envelope"></i>
+			nhumhss130296@fpt.edu.vn
+			<br>
+			<i class="fas fa-phone-square-alt"></i>
+			(+84) 909 56 1879
+			<br>
+		</div>
+		<div class="socialmedia">
+			<a href="">
+			<i class="fab fa-facebook-f" style="color: #b74139";></i>
+			</a>
+			<a href="">
+			<i class="fab fa-instagram" style="color: #b74139";></i>
+			</a>
+			<a href="https://www.youtube.com/channel/UCEekN2obabqCNyB3Q8wcXzA">
+			<i class="fab fa-youtube" style="color: #b74139";></i>
+			</a>
+		</div>
+		<hr>
+	</div>
+		<footer>
+		&copy; Copyright by MHN
+		</footer>
+	</section>
+</body>
+</html>

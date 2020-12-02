@@ -1,0 +1,264 @@
+@media screen and (min-width: 640px)
+{
+	/* {box-sizing: border-box;} */
+body{
+	overflow-x: hidden;
+}
+header{
+	text-align: center;
+	background-image: url(../images/bearbackground.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	line-height: 90px;
+}
+header h1{
+	font-size: 215%;
+	font-family: 'Caveat Brush', cursive;
+	font-weight: 3;
+	color: #220e15;
+	line-height: 220px;
+}
+header h1:hover{
+	color: #FFFFFF;
+	font-size: 185%;
+}
+.left{
+	float: left;
+	width: 30%;
+}
+.right{
+	float: right;
+	width: 30%;
+}
+.center{
+	clear: both;
+}
+h3{
+	font-size: 170%;
+	font-family: courier;
+	font-weight: 10;
+	color: #dfc1a9;
+	letter-spacing: -1px;
+	line-height: 10px;
+	text-align: center;
+}
+.backgroundimg{
+	width: 30%;
+}
+button{
+	border: solid 5px #cfa67d;
+	border-radius: 5px;
+	font-family: 'Caveat Brush', cursive;
+	background-color: #220e15;
+	color: #cfa67d;
+}
+nav a{
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #000000;
+	border: dashed 1px #dfc1a9;
+	padding: 4px 6px 4px 6px;
+	margin: 10px;
+	font-family: courier;
+	font-size: 28px;	
+}
+nav a:hover{
+	color: #fcb444;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 22px;
+}
+/* nav a:visited{
+	text-decoration: none;
+	background-color: #c1dca4;
+	color: #735d40;
+} */
+nav a:active{
+	color: #fcb444;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: 22px;
+}
+.aboutme{
+	background-image: url(../images/aboutmebg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.skills{
+	background-image: url(../images/skillsbg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.aboutme h1{
+	font-size: 170%;
+	font-family: 'Caveat Brush', cursive;
+	font-weight: 10;
+	color: #dfc1a9;
+	letter-spacing: -1px;
+	line-height: 30px;
+	text-align: center;
+}
+.reason{
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 5px;
+}
+.aboutme p{
+	font-family: courier;
+	font-size: 100%;
+	text-align: center;
+	width: 80%;
+	text-align: justify-all;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 16px;
+	padding-bottom: 20px;
+	font-weight: 10;
+	color: #ebdee8;
+}
+.skills div{
+	font-family: courier;
+	font-size: 100%;
+	text-align: center;
+	width: 80%;
+	text-align: justify-all;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 16px;
+	padding-bottom: 20px;
+	font-weight: 10;
+}
+.interests{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 5px;
+	line-height: 10px;
+	background-image: url(../images/interestsbg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.interests img{
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+}
+#mywork{
+	background-image: url(../images/myworkbg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	line-height: 15px;
+	display: inline-block;
+	width: 100%;
+}
+.interests h1,.contactme h1{
+	font-size: 170%;
+	font-family: 'Caveat Brush', cursive;
+	font-weight: 10;
+	color: #220e15;
+	letter-spacing: -1px;
+	line-height: 10px;
+	text-align: center;
+}
+.skills h1{
+	font-size: 170%;
+	font-family: 'Caveat Brush', cursive;
+	font-weight: 10;
+	color: #220e15;
+	letter-spacing: -1px;
+	line-height: 50px;
+	text-align: center;
+}
+#mywork h1{
+	font-size: 170%;
+	font-family: 'Caveat Brush', cursive;
+	font-weight: 10;
+	color: #220e15;
+	letter-spacing: -1px;
+	line-height: 50px;
+	text-align: center;
+}
+figure{
+	font-family: courier;
+	font-size: 100%;
+	font-style: italic;
+	text-align: center;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 15px;
+	padding-bottom: 20px;
+}
+.instagramphotos img{
+	width: 30%;
+	display:block;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	border: solid 9px #FFFFFF;
+  	border-top-right-radius: 25px;
+  	line-height: 10px;
+  	float:left;
+}
+.mapouter{
+	display:inline;
+	float: left;
+	padding-top: 20px;
+	padding-left: 30px;
+}
+.contactme h1{
+	font-size: 170%;
+	font-family: 'Caveat Brush', cursive;
+	font-weight: 10;
+	color: #220e15;
+	letter-spacing: -1px;
+	line-height: 10px;
+	text-align: center;	
+	border: solid 7px #dfc1a9;
+	background-color: #dfc1a9;
+	margin-left: 50%;
+
+}
+.contactme{
+	text-align: center;
+	padding: 5px;
+	line-height: 20px;
+	background-image: url(../images/contactbg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.infor{
+	margin-left: 50%;
+}
+.socialmedia{
+	font-size: 45px;
+	margin: 5px;
+	line-height: 10px;
+	padding: 15px;
+	margin-left: 50%;
+}
+footer{
+	font-family: Arial;
+	font-size: 14px;
+	font-variant: small-caps;
+	text-align: center;
+	margin-left: 50%;
+}
+
+#t_menu{
+	list-style-type: none;
+	margin-top: 80px;
+	
+}
+
+#t_menu li{
+	color: white;	
+}
+
+}
